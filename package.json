@@ -1,0 +1,9 @@
+{
+  "name": "personal-academic-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Academic website for Chen Qiao, Changsha University of Science and Technology.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
