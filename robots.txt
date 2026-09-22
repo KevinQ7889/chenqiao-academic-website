@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.chenqiao.net/sitemap.xml
+Sitemap: https://www.chenqiao.com.cn/sitemap.xml
