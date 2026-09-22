@@ -1,6 +1,6 @@
-# chenqiao.net DNS 配置
+# chenqiao.com.cn DNS 配置
 
-目标站点：https://www.chenqiao.net
+目标站点：https://www.chenqiao.com.cn
 
 托管方案：GitHub Pages
 
@@ -14,7 +14,7 @@ www 子域名的 CNAME 目标：
 
 ## 二、DNSPod 记录
 
-登录 DNS 服务商 DNSPod，进入 chenqiao.net 的 DNS 解析设置。
+登录 DNS 服务商 DNSPod，进入 chenqiao.com.cn 的 DNS 解析设置。
 
 ### 1. www 子域名
 
@@ -22,7 +22,7 @@ www 子域名的 CNAME 目标：
 | --- | --- | --- | --- | --- |
 | www | CNAME | KevinQ7889.github.io | 600 | 启用 |
 
-### 2. 根域名 chenqiao.net
+### 2. 根域名 chenqiao.com.cn
 
 建议添加以下 A 记录，让根域名也指向 GitHub Pages，并由 GitHub 自动跳转到 www：
 
@@ -50,9 +50,9 @@ www 子域名的 CNAME 目标：
 2. 打开仓库的 Settings -> Pages。
 3. 在 Build and deployment 的 Source 中选择 GitHub Actions。
 4. 等待 Deploy academic website to GitHub Pages 工作流成功。
-5. 在 Custom domain 中填写 www.chenqiao.net 并保存。
+5. 在 Custom domain 中填写 www.chenqiao.com.cn 并保存。
 6. DNS 检查通过后，开启 Enforce HTTPS。
-7. 建议在 GitHub 账号 Settings -> Pages -> Verified domains 中验证 chenqiao.net。
+7. 建议在 GitHub 账号 Settings -> Pages -> Verified domains 中验证 chenqiao.com.cn。
 
 仓库中的 CNAME 文件已经写好，GitHub Actions 会把网站、CNAME 和资源一起发布。
 
@@ -66,8 +66,8 @@ www 子域名的 CNAME 目标：
 
 在浏览器依次检查：
 
-    http://www.chenqiao.net
-    https://www.chenqiao.net
-    https://chenqiao.net
+    http://www.chenqiao.com.cn
+    https://www.chenqiao.com.cn
+    https://chenqiao.com.cn
 
-最终应统一访问 https://www.chenqiao.net。
+最终应统一访问 https://www.chenqiao.com.cn。
