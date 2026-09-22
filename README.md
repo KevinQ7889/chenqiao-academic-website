@@ -63,9 +63,9 @@ HTML 中已经留有注释，例如：
 
 ## 自定义域名
 
-公开网址目标：https://www.chenqiao.net
+公开网址目标：https://www.chenqiao.com.cn
 
-- CNAME 文件已经设置为 www.chenqiao.net
+- CNAME 文件已经设置为 www.chenqiao.com.cn
 - 自动部署流程会连同 CNAME、robots.txt 和 sitemap.xml 一起发布
 - DNSPod 的完整记录和 GitHub 操作步骤见 DNS-CONFIG.md
 
