@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang='zh-CN'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name='robots' content='noindex,nofollow'>
+  <title>网站管理入口 | 陈巧</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f7f4ee; --card:#fffdf9; --ink:#17231f; --muted:#66716c; --line:#d8d3c8; --accent:#135f4b; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#101714; --card:#17201c; --ink:#edf3ee; --muted:#9aa69f; --line:#2d3a34; --accent:#8fd3b9; } }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:24px; background:var(--bg); color:var(--ink); font-family:system-ui,'Microsoft YaHei',sans-serif; }
+    main { width:min(720px,100%); padding:34px; background:var(--card); border:1px solid var(--line); border-radius:22px; box-shadow:0 24px 70px rgba(0,0,0,.10); }
+    h1 { margin:0; font-family:Georgia,'Songti SC',serif; font-size:36px; font-weight:500; }
+    p { color:var(--muted); line-height:1.75; }
+    .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:26px; }
+    a { display:block; padding:15px 16px; color:var(--ink); text-decoration:none; border:1px solid var(--line); border-radius:13px; transition:.18s ease; }
+    a:hover { color:var(--accent); border-color:var(--accent); transform:translateY(-2px); }
+    a strong, a small { display:block; }
+    a small { margin-top:4px; color:var(--muted); font-size:11px; }
+    .note { margin-top:24px; padding:14px 16px; background:var(--bg); border-radius:12px; font-size:12px; }
+    @media (max-width:560px) { main { padding:24px; } .grid { grid-template-columns:1fr; } h1 { font-size:30px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>网站管理入口</h1>
+    <p>此页面只提供修改链接，不包含密码。登录陈巧的 GitHub 账号后即可编辑内容、上传简历和查看部署状态。</p>
+    <div class='grid'>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website' target='_blank' rel='noreferrer'><strong>网站代码仓库</strong><small>查看全部文件</small></a>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website/edit/main/index.html' target='_blank' rel='noreferrer'><strong>修改主页内容</strong><small>编辑文字、论文和联系方式</small></a>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website/edit/main/styles.css' target='_blank' rel='noreferrer'><strong>修改页面样式</strong><small>调整颜色与布局</small></a>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website/tree/main/assets' target='_blank' rel='noreferrer'><strong>上传简历和图片</strong><small>管理 assets 目录</small></a>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website/actions' target='_blank' rel='noreferrer'><strong>部署状态</strong><small>查看网站更新进度</small></a>
+      <a href='https://github.com/KevinQ7889/chenqiao-academic-website/settings/pages' target='_blank' rel='noreferrer'><strong>域名设置</strong><small>管理 www.chenqiao.com.cn</small></a>
+    </div>
+    <div class='note'>管理地址：https://www.chenqiao.com.cn/assets/edit.html</div>
+  </main>
+</body>
+</html>
